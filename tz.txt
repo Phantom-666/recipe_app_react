@@ -1,0 +1,2 @@
+Create a recipe application where users can search for recipes,
+filter by ingredients or cuisine, and save their favorite recipes.

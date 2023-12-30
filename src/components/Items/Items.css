@@ -1,0 +1,26 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 20px;
+}
+
+h1,
+h2,
+h3 {
+  color: #333;
+}
+
+img {
+  max-height: 300px;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 1%;
+}
+
+.ingredients-list,
+.instructions-list {
+  padding-left: 20px;
+}
+
+.home-btn {
+  margin-top: 1%;
+}
