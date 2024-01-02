@@ -1,0 +1,19 @@
+.cell {
+  border: 1px solid black;
+  border-radius: 5%;
+  height: 45px;
+}
+
+.cell:hover {
+  background-color: aqua;
+  cursor: pointer;
+}
+
+.search-btn {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.search-item {
+  cursor: pointer;
+}

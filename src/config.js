@@ -2,6 +2,7 @@ const recipes = [
   {
     id: 0,
     name: "Spaghetti Bolognese",
+    cuisine: "Italian",
     ingredients: [
       "500g ground beef",
       "1 onion, finely chopped",
@@ -28,6 +29,7 @@ const recipes = [
   {
     id: 1,
     name: "Chicken Alfredo Pasta",
+    cuisine: "Italian",
     ingredients: [
       "250g fettuccine pasta",
       "2 boneless, skinless chicken breasts, sliced",
@@ -51,6 +53,8 @@ const recipes = [
   {
     id: 2,
     name: "Vegetarian Stir-Fry",
+    cuisine: "Asian",
+
     ingredients: [
       "2 cups broccoli florets",
       "1 bell pepper, sliced",
@@ -77,6 +81,7 @@ const recipes = [
   {
     id: 3,
     name: "Classic Margherita Pizza",
+    cuisine: "Italian",
     ingredients: [
       "Pizza dough",
       "1/2 cup pizza sauce",
@@ -100,6 +105,7 @@ const recipes = [
   {
     id: 4,
     name: "Chocolate Chip Cookies",
+    cuisine: "Dessert",
     ingredients: [
       "1 cup unsalted butter, softened",
       "3/4 cup granulated sugar",
@@ -131,4 +137,6 @@ const recipes = [
 const favWord = "favorites"
 const historyWord = "history"
 
-export { recipes, favWord, historyWord }
+const cuisines = ["Italian", "Asian", "Dessert"]
+
+export { recipes, favWord, historyWord, cuisines }
